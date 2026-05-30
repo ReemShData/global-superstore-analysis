@@ -1,10 +1,10 @@
 # Global Superstore Sales Analysis
 
-## Project Overview
+## Overview
 
 This project analyzes the Global Superstore dataset using Python, SQL, and Excel.
 
-The goal of this project is to explore sales performance, profitability, customer behavior, and business trends through data analysis and visualization.
+The analysis focuses on sales performance, profitability, customer behavior, product performance, and business insights through data visualization and dashboard creation.
 
 ---
 
@@ -25,10 +25,11 @@ Global Superstore Dataset
 
 The dataset contains information about:
 
-* Sales
-* Profit
+* Orders
 * Customers
 * Products
+* Sales
+* Profit
 * Shipping
 * Countries and Regions
 
@@ -42,34 +43,36 @@ global-superstore-sales-analysis
 ├── data
 │   └── clean_superstore.csv
 
-├── images
-│   ├── 01_profit_by_category.png
-│   ├── 02_discount_vs_profit.png
-│   ├── 03_top_countries_by_sales.png
-│   ├── 04_top_products_sales.png
-│   ├── 05_shipping_cost_vs_profit.png
-│   ├── 06_monthly_sales_trend.png
-│   ├── 11_category_profit_analysis_sql.png
-│   ├── 12_yearly_sales_sql.png
-│   └── 10_excel_dashboard.png
-
 ├── notebook
 │   └── superstore_analysis.ipynb
 
 ├── sql
 │   └── sql_queries.sql
 
-└── README.md
+├── images
+│   ├── 01_profit_by_category.png
+│   ├── 02_discount_vs_profit.png
+│   ├── 03_top_countries_by_sales.png
+│   ├── 04_top_10_products_sales.png
+│   ├── 05_shipping_cost_vs_profit.png
+│   ├── 06_monthly_sales_trend.png
+│   ├── 07_top_customers_sql.png
+│   ├── 08_profit_by_shipping_mode_sql.png
+│   ├── 09_top_products_sales_sql.png
+│   ├── 10_top_countries_profit_sql.png
+│   ├── 11_category_profit_analysis_sql.png
+│   ├── 12_yearly_sales_sql.png
+│   └── 13_sales_dashboard_excel.png
 ```
 
 ---
 
 ## Python Analysis
 
-The Python analysis includes:
+The project includes:
 
-* Data cleaning
-* Data exploration
+* Data Cleaning
+* Exploratory Data Analysis (EDA)
 * Profit by Category
 * Discount vs Profit Analysis
 * Top Countries by Sales
@@ -81,42 +84,56 @@ The Python analysis includes:
 
 ## SQL Analysis
 
-The SQL analysis includes:
+SQL queries were used to analyze:
 
-* Category Profit Analysis
-* Yearly Sales Analysis
 * Top Customers
-* Sales by Segment
+* Product Performance
+* Country Performance
+* Profit by Category
 * Profit by Shipping Mode
+* Yearly Sales Trends
 
 ---
 
 ## Excel Dashboard
 
-An interactive dashboard was created in Excel to summarize key business insights.
+An Excel dashboard was created to summarize key business insights using charts and pivot tables.
 
-Dashboard includes:
+### Dashboard Preview
 
-* Top Countries by Sales
-* Profit by Category
-* Sales by Segment
+![Excel Dashboard](images/13_sales_dashboard_excel.png)
 
 ---
 
 ## Key Insights
 
-* Technology generated the highest profit.
+* Technology generated the highest profit among all categories.
 * Higher discounts were often associated with lower profits.
-* Sales increased significantly in later months of the year.
+* Sales generally increased toward the end of the year.
 * Consumer customers generated the largest share of sales.
-* A small number of countries contributed a large portion of total sales.
+* A small number of countries contributed a significant portion of total revenue.
 
 ---
 
-## Dashboard Preview
+## Visualizations
 
-See:
+### Profit by Category
 
-`images/10_excel_dashboard.png`
+![Profit by Category](images/01_profit_by_category.png)
 
+### Discount vs Profit
+
+![Discount vs Profit](images/02_discount_vs_profit.png)
+
+### Top Countries by Sales
+
+![Top Countries by Sales](images/03_top_countries_by_sales.png)
+
+### Top Products by Sales
+
+![Top Products by Sales](images/04_top_10_products_sales.png)
+
+### Monthly Sales Trend
+
+![Monthly Sales Trend](images/06_monthly_sales_trend.png)
 
