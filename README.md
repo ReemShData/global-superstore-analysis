@@ -66,10 +66,10 @@ using charts and pivot tables.
 ![Excel Dashboard](images/13_sales_dashboard_excel.png)
 
 ## Key Insights
-- Technology generated the highest profit (~$650,000) among all categories
-- Office Supplies came second (~$500,000) followed by Furniture (~$300,000)
-- United States is the top country by sales with ~$2.3M
-- Apple Smart Phone Full Size is the best selling product (~$70,000)
+- Technology generated the highest profit (around $650,000) among all categories
+- Office Supplies came second (around $500,000) followed by Furniture (around $300,000)
+- United States is the top country by sales with around $2.3M
+- Apple Smart Phone Full Size is the best selling product (around $70,000)
 - Discounts above 40% are strongly associated with negative profit (losses)
 - Sales generally increased toward the end of the year
 
