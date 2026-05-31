@@ -39,6 +39,7 @@ global-superstore-sales-analysis
 │   └── 13_sales_dashboard_excel.png
 ```
 
+
 ## Python Analysis
 - Data Cleaning
 - Exploratory Data Analysis (EDA)
@@ -94,4 +95,3 @@ using charts and pivot tables.
 
 ### Monthly Sales Trend
 ![Monthly Sales Trend](images/06_monthly_sales_trend.png)
-
