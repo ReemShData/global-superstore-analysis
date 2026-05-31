@@ -14,37 +14,30 @@ product performance, and business insights through data visualization and dashbo
 Global Superstore Dataset — 51,290 records
 - Orders, Customers, Products, Sales, Profit, Shipping, Countries and Regions
 
----
-
 ## Project Structure
-
+```
 global-superstore-sales-analysis
-
 ├── data
-│  └── clean_superstore.csv
-
+│   └── clean_superstore.csv
 ├── notebook
-│  └── superstore_analysis.ipynb
-
+│   └── superstore_analysis.ipynb
 ├── sql
-│  └── sql_queries.sql
-
+│   └── sql_queries.sql
 ├── images
-│  ├── 01_profit_by_category.png
-│  ├── 02_discount_vs_profit.png
-│  ├── 03_top_countries_by_sales.png
-│  ├── 04_top_10_products_sales.png
-│  ├── 05_shipping_cost_vs_profit.png
-│  ├── 06_monthly_sales_trend.png
-│  ├── 07_top_customers_sql.png
-│  ├── 08_profit_by_shipping_mode_sql.png
-│  ├── 09_top_products_sales_sql.png
-│  ├── 10_top_countries_profit_sql.png
-│  ├── 11_category_profit_analysis_sql.png
-│  ├── 12_yearly_sales_sql.png
-│  └── 13_sales_dashboard_excel.png
-
----
+│   ├── 01_profit_by_category.png
+│   ├── 02_discount_vs_profit.png
+│   ├── 03_top_countries_by_sales.png
+│   ├── 04_top_10_products_sales.png
+│   ├── 05_shipping_cost_vs_profit.png
+│   ├── 06_monthly_sales_trend.png
+│   ├── 07_top_customers_sql.png
+│   ├── 08_profit_by_shipping_mode_sql.png
+│   ├── 09_top_products_sales_sql.png
+│   ├── 10_top_countries_profit_sql.png
+│   ├── 11_category_profit_analysis_sql.png
+│   ├── 12_yearly_sales_sql.png
+│   └── 13_sales_dashboard_excel.png
+```
 
 ## Python Analysis
 - Data Cleaning
